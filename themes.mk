@@ -292,49 +292,108 @@ PRODUCT_PACKAGES += \
     NavbarTecnoCamonOverlay \
     NavbarDoraOverlay
 
-# Signal / WiFi Icons
+# Statusbar Icons
 PRODUCT_PACKAGES += \
-    BarsSignalOverlay \
+        AquariumSignalOverlay \
+        BarsSignalOverlay \
+        ButterflySignalOverlay \
+        BananaSignalOverlay \
+        CircleSignalOverlay \
+        DaunSignalOverlay \
+        DecSignalOverlay \
+        DeepSignalOverlay \
+        DottedSignalOverlay \
+        EqualSignalOverlay \
+        FanSignalOverlay \
+        HuaweiSignalOverlay \
+        HeartbeatSignalOverlay \
+        InsideSignalOverlay \
+        IosSignalOverlay \
+        MiniSignalOverlay \
+        OdinSignalOverlay \
+        PillsSignalOverlay \
+        RelSignalOverlay \
+        RomanSignalOverlay \
+        RoundSignalOverlay \
+        ScrollSignalOverlay \
+        SeaSignalOverlay \
+        SneakySignalOverlay \
+        StackSignalOverlay \
+        StrokeSignalOverlay \
+        WannuiSignalOverlay \
+        WavySignalOverlay \
+        WindowsSignalOverlay \
+        WingSignalOverlay \
+        XperiaSignalOverlay \
+        ZigZagSignalOverlay \
+        AiirOSignalOverlay \
+    	AuroraSignalOverlay \
+    	BoldSignalOverlay \
+    	CapsuleSignalOverlay \
+    	FaintUISignalOverlay \
+    	ForlornSignalOverlay \
+    	GlummySignalOverlay \
+    	GradiconSignalOverlay \
+    	HollowSignalOverlay \
+    	IOSSignalOverlay \
+    	JapaneseSignalOverlay \
+    	KoalaSignalOverlay \
+    	LinealSignalOverlay \
+    	LinearSignalOverlay \
+    	PlumpySignalOverlay \
+    	RouterSignalOverlay \
+    	HeartbeatSignalOverlay \
+    	ScaleSignalOverlay \
+    	SpiralSignalOverlay \
+    	TowerSignalOverlay \
+    	WaffleSignalOverlay \
+    	LineDotSignalOverlay \
+    	NumberSignalOverlay \
+    	WindySignalOverlay \
+    	MicroWaveSignalOverlay \
+        SharpSignalOverlay \
+        NinjaSignalOverlay \
+        NothingDotSignalOverlay \
+        SleekSignalOverlay
+        
+# Wi-Fi Icons
+PRODUCT_PACKAGES += \
     BarsWiFiOverlay \
-    DoraSignalOverlay \
-    DoraWiFiOverlay \
-    InsideSignalOverlay \
     InsideWiFiOverlay \
-    RoundSignalOverlay \
     RoundWiFiOverlay \
-    SneakySignalOverlay \
     SneakyWiFiOverlay \
-    StrokeSignalOverlay \
     StrokeWiFiOverlay \
-    WavySignalOverlay \
     WavyWiFiOverlay \
     WeedWiFiOverlay \
-    XperiaSignalOverlay \
     XperiaWiFiOverlay \
-    ZigZagSignalOverlay \
     ZigZagWiFiOverlay \
-    BarsWiFiOverlay \
-    AquariumSignalOverlay \
-    ButterflySignalOverlay \
-    DaunSignalOverlay \
-    DecSignalOverlay \
-    DeepSignalOverlay \
-    EqualSignalOverlay \
-    FanSignalOverlay \
-    HuaweiSignalOverlay \
-    RelSignalOverlay \
-    ScrollSignalOverlay \
-    SeaSignalOverlay \
-    StackSignalOverlay \
-    WannuiSignalOverlay \
-    WindowsSignalOverlay \
-    WingSignalOverlay \
-    CircleSignalOverlay \
-    IosSignalOverlay \
-    MiniSignalOverlay \
-    OdinSignalOverlay \
-    PillsSignalOverlay \
-    RomanSignalOverlay
+    AiirOWiFiOverlay \
+    AuroraWiFiOverlay \
+    BoldWiFiOverlay \
+    CapsuleWiFiOverlay \
+    FaintUIWiFiOverlay \
+    ForlornWiFiOverlay \
+    GlummyWiFiOverlay \
+    GradiconWiFiOverlay \
+    HollowWiFiOverlay \
+    IosWiFiOverlay \
+    JapaneseWiFiOverlay \
+    KoalaWiFiOverlay \
+    LinealWiFiOverlay \
+    LinearWiFiOverlay \
+    PlumpyWiFiOverlay \
+    RouterWiFiOverlay \
+    ScaleWiFiOverlay \
+    SpiralWiFiOverlay \
+    TowerWiFiOverlay \
+    WaffleWiFiOverlay \
+    LineDotWiFiOverlay \
+    NumberWiFiOverlay \
+    WindyWiFiOverlay \
+    LandscapeWiFiOverlay \
+    MicroWaveWiFiOverlay \
+    SharpWiFiOverlay \
+    NothingDotWiFiOverlay
 
 # Themes
 PRODUCT_PACKAGES += \
