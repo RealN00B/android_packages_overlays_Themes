@@ -12,99 +12,218 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Build some fonts
 PRODUCT_PACKAGES += \
-    ArbutusSlab-Regular.ttf \
-    Barlow-Bold.ttf \
-    Barlow-Medium.ttf \
-    BigShouldersText-Bold.ttf \
-    BigShouldersText-ExtraBold.ttf \
-    Fraunces-Regular.ttf \
-    Fraunces-SemiBold.ttf \
-    GoogleSans-Italic.ttf \
-    GoogleSans-Regular.ttf \
-    Karla-Regular.ttf \
-    Lato-BoldItalic.ttf \
-    Lato-Bold.ttf \
-    Lato-Italic.ttf \
-    Lato-MediumItalic.ttf \
-    Lato-Medium.ttf \
-    Lato-Regular.ttf \
-    Lustria-Regular.ttf \
-    Rubik-BoldItalic.ttf \
-    Rubik-Bold.ttf \
-    Rubik-Italic.ttf \
-    Rubik-MediumItalic.ttf \
-    Rubik-Medium.ttf \
-    Rubik-Regular.ttf \
-    ZillaSlab-MediumItalic.ttf \
-    ZillaSlab-Medium.ttf \
-    ZillaSlab-SemiBoldItalic.ttf \
-    ZillaSlab-SemiBold.ttf 
+    HarmonyOS-Sans-Italic.ttf \
+    HarmonyOS-Sans.ttf \
+    Lexend-VF.ttf \
+    Manrope-VF.ttf \
+    RobotoFallback-VF.ttf
 
-# Copy fonts
-LOCAL_PATH := packages/overlays/Themes/fonts
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts)
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
-
-# Font Overalys
+# Font overlays
 PRODUCT_PACKAGES += \
-    FontAclonicaSourceOverlay \
-    FontAmanteSourceOverlay \
-    FontAntipastoProSourceOverlay \
-    FontApiceOverlay \
+    FontAccuratistOverlay \
+    FontAclonicaOverlay \
+    FontAmaranteOverlay \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
-    FontAudimatOverlay \
-    FontBariolSourceOverlay \
-    FontBellotaSourceOverlay \
-    FontCagliostroSourceOverlay \
-    FontCoconSourceOverlay \
-    FontComfortaaSourceOverlay \
-    FontComicSansSourceOverlay \
-    FontCoolstorySourceOverlay \
-    FontEvolveSansSourceOverlay \
-    FontExotwoSourceOverlay \
-    FontFifa2018SourceOverlay \
-    FontFucekSourceOverlay \
-    FontGInterOverlay \
-    FontGeometosOverlay \
-    FontGrandHotelSourceOverlay \
+    FontBariolOverlay \
+    FontCagliostroOverlay \
+    FontCoconOverlay \
+    FontComfortaaOverlay \
+    FontComicSansOverlay \
+    FontCooljazzOverlay \
+    FontCoolstoryOverlay \
+    FontEvolveSansOverlay \
+    FontExotwoOverlay \
+    FontFifa2018Overlay \
+    FontFluidSansOverlay \
+    FontFucekOverlay \
+    FontGoogleSansOverlay \
+    FontGrandHotelOverlay \
+    FontGoogleSansMediumOverlay \
     FontHarmonySansOverlay \
-    FontKaiOverlay \
-    FontLGSmartGothicSourceOverlay \
-    FontLemonMilkSourceOverlay \
-    FontLinotteSourceOverlay \
+    FontInterSourceOverlay \
+    FontJTLeonorOverlay \
+    FontLGSmartGothicOverlay \
+    FontLemonMilkOverlay \
+    FontLinotteOverlay \
     FontManropeOverlay \
     FontMiSansOverlay \
-    FontNothiingDotOverlay \
-    FontNokiaPureSourceOverlay \
-    FontNunitoSourceOverlay \
-    FontOdudaSourceOverlay \
+    FontNokiaPureOverlay \
+    FontNothingDotHeadlineOverlay \
+    FontNothingDotOverlay \
+    FontNotoSerifSource \
+    FontNunitoOverlay \
+    FontOdudaOverlay \
     FontOnePlusSansOverlay \
-    FontOneplusSlateSourceOverlay \
+    FontOnePlusSlateOverlay \
+    FontOneUISansOverlay \
     FontOppoSansOverlay \
-    FontPoppinsSourceOverlay \
+    FontOswaldOverlay \
     FontProductSansVHOverlay \
-    FontQuandoSourceOverlay \
-    FontRecursiveLinearOverlay \
-    FontRedressedSourceOverlay \
-    FontReemKufiSourceOverlay \
-    FontRobotoFlexOverlay \
-    FontRosemarySourceOverlay \
+    FontQuandoOverlay \
+    FontRedressedOverlay \
+    FontReemKufiOverlay \
+    FontRobotoCondensedOverlay \
+    FontRobotoOverlay \
+    FontRosemaryOverlay \
     FontRubikRubikOverlay \
-    FontSamOverlay \
-    FontSamsungOneSourceOverlay \
+    FontSamsungOneOverlay \
+    FontSanFranciscoDisplayProSourceOverlay \
     FontSimpleDaySourceOverlay \
-    FontSonySketchSourceOverlay \
-    FontStoropiaSourceOverlay \
-    FontSurferSourceOverlay \
-    FontUbuntuSourceOverlay \
-    FontVictorOverlay \
-    FontGoogleSansClockOverlay \
-    FontGoogleSansOverlay
+    FontSonySketchOverlay \
+    FontStoropiaOverlay \
+    FontSurferOverlay \
+    FontUbuntuOverlay \
+    FontCircularStdOverlay \
+    FontBlazmaHyperwaveOverlay \
+    FontCardelinaOverlay \
+    FontCookieRunOverlay \
+    FontGemsbuckPunkMonoObliqueOverlay \
+    FontGiganticFSHezaedrusOverlay \
+    FontJicaletaOverlay \
+    FontJustSansOverlay \
+    FontPunkMonoOverlay \
+    FontVladivostokOverlay \
+    FontDotComOverlay
+
+# Copy fonts
+LOCAL_PATH := packages/overlays/Themes
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/product/etc/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+    
+# Lockscreen clock fonts
+PRODUCT_PACKAGES += \
+    ClockFontGoogleSansOverlay \
+    ClockFontNothingDotOverlay \
+    ClockFontAdventProOverlay \
+    ClockFontBigNoodleTiltingOverlay \
+    ClockFontCherrySwashOverlay \
+    ClockFontHeadlineOverlay \
+    ClockFontRoadRageOverlay \
+    ClockFontSnowstormOverlay \
+    ClockFontViburOverlay \
+    ClockFontAlienLeagueOverlay \
+    ClockFontBikoOverlay \
+    ClockFontGinoraSansOverlay \
+    ClockFontRivieraOverlay \
+    ClockFontUnionOverlay \
+    ClockFontVG5000Overlay \
+    ClockFont3DIsometricBlackOverlay \
+    ClockFont3DIsometricBoldOverlay \
+    ClockFontBalticBoddenOverlay \
+    ClockFontBalticCoastOverlay \
+    ClockFontBalticDuneOverlay \
+    ClockFontBalticStormOverlay \
+    ClockFontCafe24DecoshadowOverlay \
+    ClockFontFortaOverlay \
+    ClockFontMuseoModernoOverlay \
+    ClockFontMXWasgardOverlay \
+    ClockFontNeptunCATOverlay \
+    ClockFontProdeltCoOverlay \
+    ClockFontRubikGlitchOverlay \
+    ClockFontTourneyMediumOverlay \
+    ClockFontVG5000Overlay \
+    ClockFontOdibeeSansOverlay \
+    ClockFontPermanentMarkerOverlay \
+    ClockFontArcadeInterlacedOverlay \
+    ClockFontDotComOverlay \
+    ClockFontKarmaticArcadeOverlay \
+    ClockFontLiquidCrystalOverlay \
+    ClockFontV5PRFOverlay \
+    ClockFontZeroFourOverlay \
+    ClockFontSedgwickAveOverlay \
+    ClockFontUnionOverlay \
+    ClockFontAccuratistOverlay \
+    ClockFontAclonicaOverlay \
+    ClockFontAmaranteOverlay \
+    ClockFontBariolOverlay \
+    ClockFontCagliostroOverlay \
+    ClockFontCoconOverlay \
+    ClockFontComfortaaOverlay \
+    ClockFontComicSansOverlay \
+    ClockFontCoolstoryOverlay \
+    ClockFontExotwoOverlay \
+    ClockFontFifa2018Overlay \
+    ClockFontGrandHotelOverlay \
+    ClockFontHarmonySansOverlay \
+    ClockFontLatoOverlay \
+    ClockFontLGSmartGothicOverlay \
+    ClockFontLinotteOverlay \
+    ClockFontNokiaPureOverlay \
+    ClockFontNunitoOverlay \
+    ClockFontOneplusSansOverlay \
+    ClockFontOneplusSlateOverlay \
+    ClockFontOswaldOverlay \
+    ClockFontQuandoOverlay \
+    ClockFontRedressedOverlay \
+    ClockFontReemKufiOverlay \
+    ClockFontRobotoCondensedOverlay \
+    ClockFontRosemaryOverlay \
+    ClockFontRubikOverlay \
+    ClockFontSamsungOneOverlay \
+    ClockFontSonySketchOverlay \
+    ClockFontStoropiaOverlay \
+    ClockFontSurferOverlay \
+    ClockFontUbuntuOverlay \
+    ClockFontxtrusionOverlay \
+    ClockFontNeonDiscoOverlay \
+    ClockFontlovenessthreeOverlay \
+    ClockFontAlphaCloudsOverlay \
+    ClockFontAlphaFlowersOverlay \
+    ClockFontAlphaWoodOverlay \
+    ClockFontBigCheeseOverlay \
+    ClockFontBudmoJigglerOverlay \
+    ClockFontBunnyRabbitsOverlay \
+    ClockFontCFBadNewsOverlay \
+    ClockFontCFOneTwoTreesOverlay \
+    ClockFontCRACKMANOverlay \
+    ClockFontELRIOTT2Overlay \
+    ClockFontEasterBunnyOverlay \
+    ClockFontFibographyOverlay \
+    ClockFontHangedOverlay \
+    ClockFontHotSweatOverlay \
+    ClockFontKGOnlyHopeOverlay \
+    ClockFontKaramuruhOverlay \
+    ClockFontKingthingsOverlay \
+    ClockFontKlyukinOverlay \
+    ClockFontLMSCliffordOverlay \
+    ClockFontLittleBunnyOverlay \
+    ClockFontMessingLetternOverlay \
+    ClockFontneon2Overlay \
+    ClockFontPinewoodOverlay \
+    ClockFontPlaidEventOverlay \
+    ClockFontPlantsLettersOverlay \
+    ClockFontQuickSouthOverlay \
+    ClockFontREMPONKOverlay \
+    ClockFontRomantiquesOverlay \
+    ClockFontScrapItUpOverlay \
+    ClockFontSpaceGameOverlay \
+    ClockFontTH3MACHINEOverlay \
+    ClockFontVTKSDURA3dOverlay \
+    ClockFontZnikomitNo24Overlay \
+    ClockFontACFilmstripOverlay \
+    ClockFontAmpad3D2Overlay \
+    ClockFontBetsyFlanaganOverlay \
+    ClockFontCatOverlay \
+    ClockFontConcentrateOverlay \
+    ClockFontDiscoMidnightOverlay \
+    ClockFontGautsMotelUpperRightOverlay \
+    ClockFontNINJASOverlay \
+    ClockFontStandardHeaderOverlay \
+    ClockFontfrankfrtOverlay \
+    ClockFontmunsteriaOverlay \
+    ClockFontAlmonteSnowOverlay \
+    ClockFontBrandayolqOverlay \
+    ClockFontEditPointsOverlay \
+    ClockFontEditPointsFilledOverlay \
+    ClockFontFloorlightOverlay \
+    ClockFontFuturrOverlay \
+    ClockFontLowerAtmosphereOverlay \
+    ClockFontMonbijouxClownpieceOverlay \
+    ClockFontRoundheadsOverlay
 
 # Icons
 PRODUCT_PACKAGES += \
