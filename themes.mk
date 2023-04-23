@@ -425,6 +425,11 @@ PRODUCT_PACKAGES += \
     QSReflected \
     QSSurround \
     QSThin
+    
+# Brightness slider styles
+PRODUCT_PACKAGES += \
+    BrightnessSliderFilledOverlay \
+    BrightnessSliderThinOverlay
 
 # Themes
 PRODUCT_PACKAGES += \
