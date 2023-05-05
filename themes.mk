@@ -280,7 +280,15 @@ PRODUCT_PACKAGES += \
     IconPackOutlineSystemUIOverlay \
     IconPackXperiaAndroidOverlay \
     IconPackXperiaSettingsOverlay \
-    IconPackXperiaSystemUIOverlay
+    IconPackXperiaSystemUIOverlay \
+    IconPackPlumpySystemUIOverlay \
+    IconPackPlumpyAndroidOverlay \
+    IconPackAuroraAndroidOverlay \
+    IconPackAuroraSystemUIOverlay \
+    IconPackGradiconAndroidOverlay \
+    IconPackGradiconSystemUIOverlay \
+    IconPackLornAndroidOverlay \
+    IconPackLornSystemUIOverlay
 
 # Icon shapes
 PRODUCT_PACKAGES += \
