@@ -469,3 +469,11 @@ ifeq ($(SUPERIOR_UDFPS_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
     UdfpsResources
 endif
+
+# Volume Styles
+PRODUCT_PACKAGES += \
+    VolumeStyle1Overlay \
+    VolumeStyle2Overlay \
+    VolumeStyle3Overlay \
+    VolumeStyle4Overlay \
+    VolumeStyle5Overlay
