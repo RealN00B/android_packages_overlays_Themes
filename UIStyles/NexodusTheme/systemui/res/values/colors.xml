@@ -25,4 +25,7 @@
     <!-- Navbar pill color -->
     <color name="navigation_bar_home_handle_light_color">@android:color/system_accent1_200</color>
     <color name="navigation_bar_home_handle_dark_color">@android:color/system_accent1_200</color>
+    
+    <drawable name="system_bar_background">@color/system_bar_background_transparent</drawable>
+    <color name="system_bar_background_transparent">#00000000</color>
 </resources>

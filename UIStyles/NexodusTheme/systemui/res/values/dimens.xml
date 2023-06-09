@@ -17,7 +17,7 @@
 
 <resources>
     <!-- The height of the divider between the individual notifications. -->
-    <dimen name="notification_divider_height">0dp</dimen>
+    <dimen name="notification_divider_height">5dp</dimen>
     <!-- Radius for notifications corners with adjacent notifications -->
     <dimen name="notification_corner_radius_small">0dp</dimen>
     <dimen name="overlay_action_container_corner_radius">12dp</dimen>
@@ -26,7 +26,9 @@
 
     <dimen name="volume_dialog_slider_corner_radius">12dp</dimen>
 
-    <dimen name="qs_corner_radius">18dp</dimen>
+    <dimen name="qs_corner_radius">12dp</dimen>
+    <dimen name="rounded_slider_corner_radius">12dp</dimen>
+    <dimen name="rounded_slider_background_rounded_corner">12dp</dimen>
     <dimen name="qs_security_footer_corner_radius">12dp</dimen>
     <dimen name="keyguard_affordance_fixed_radius">8dp</dimen>
     <dimen name="global_actions_corner_radius">12dp</dimen>

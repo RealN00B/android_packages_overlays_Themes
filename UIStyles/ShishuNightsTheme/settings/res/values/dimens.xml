@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <dimen name="superior_radius">28dp</dimen>
+     <dimen name="superior_radius_merge">5dp</dimen>
+</resources>
