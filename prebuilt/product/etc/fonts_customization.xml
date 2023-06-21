@@ -915,6 +915,104 @@
     <alias name="goudy" to="oduda" />
     <alias name="fantasy" to="oduda" />
     <alias name="ITC Stone Serif" to="oduda" />
+    
+    <family customizationType="new-named-family" name="beauty">
+        <font weight="400" style="normal">Beauty.ttf</font>
+    </family>
+    <alias name="oduda-semi-bold" to="beauty" weight="600" />
+    <alias name="oduda-bold" to="beauty" weight="700" />
+    <alias name="times" to="beauty" />
+    <alias name="times new roman" to="beauty" />
+    <alias name="palatino" to="beauty" />
+    <alias name="georgia" to="beauty" />
+    <alias name="baskerville" to="beauty" />
+    <alias name="goudy" to="beauty" />
+    <alias name="fantasy" to="beauty" />
+    <alias name="ITC Stone Serif" to="beauty" />
+    
+    <family customizationType="new-named-family" name="ablax">
+        <font weight="400" style="normal">Ablax.ttf</font>
+    </family>
+    <alias name="oduda-semi-bold" to="ablax" weight="600" />
+    <alias name="oduda-bold" to="ablax" weight="700" />
+    <alias name="times" to="ablax" />
+    <alias name="times new roman" to="ablax" />
+    <alias name="palatino" to="ablax" />
+    <alias name="georgia" to="ablax" />
+    <alias name="baskerville" to="ablax" />
+    <alias name="goudy" to="ablax" />
+    <alias name="fantasy" to="ablax" />
+    <alias name="ITC Stone Serif" to="ablax" />
+    
+    <family customizationType="new-named-family" name="freshlemons">
+        <font weight="400" style="normal">FreshLemons.ttf</font>
+    </family>
+    <alias name="oduda-semi-bold" to="freshlemons" weight="600" />
+    <alias name="oduda-bold" to="freshlemons" weight="700" />
+    <alias name="times" to="freshlemons" />
+    <alias name="times new roman" to="freshlemons" />
+    <alias name="palatino" to="freshlemons" />
+    <alias name="georgia" to="freshlemons" />
+    <alias name="baskerville" to="freshlemons" />
+    <alias name="goudy" to="freshlemons" />
+    <alias name="fantasy" to="freshlemons" />
+    <alias name="ITC Stone Serif" to="freshlemons" />
+    
+    <family customizationType="new-named-family" name="humouresque">
+        <font weight="400" style="normal">Humouresque.ttf</font>
+    </family>
+    <alias name="oduda-semi-bold" to="humouresque" weight="600" />
+    <alias name="oduda-bold" to="humouresque" weight="700" />
+    <alias name="times" to="humouresque" />
+    <alias name="times new roman" to="humouresque" />
+    <alias name="palatino" to="humouresque" />
+    <alias name="georgia" to="humouresque" />
+    <alias name="baskerville" to="humouresque" />
+    <alias name="goudy" to="humouresque" />
+    <alias name="fantasy" to="humouresque" />
+    <alias name="ITC Stone Serif" to="humouresque" />
+    
+    <family customizationType="new-named-family" name="love">
+        <font weight="400" style="normal">Love.ttf</font>
+    </family>
+    <alias name="oduda-semi-bold" to="love" weight="600" />
+    <alias name="oduda-bold" to="love" weight="700" />
+    <alias name="times" to="love" />
+    <alias name="times new roman" to="love" />
+    <alias name="palatino" to="love" />
+    <alias name="georgia" to="love" />
+    <alias name="baskerville" to="love" />
+    <alias name="goudy" to="love" />
+    <alias name="fantasy" to="love" />
+    <alias name="ITC Stone Serif" to="love" />
+    
+    <family customizationType="new-named-family" name="paris">
+        <font weight="400" style="normal">Paris.ttf</font>
+    </family>
+    <alias name="oduda-semi-bold" to="paris" weight="600" />
+    <alias name="oduda-bold" to="paris" weight="700" />
+    <alias name="times" to="paris" />
+    <alias name="times new roman" to="paris" />
+    <alias name="palatino" to="paris" />
+    <alias name="georgia" to="paris" />
+    <alias name="baskerville" to="paris" />
+    <alias name="goudy" to="paris" />
+    <alias name="fantasy" to="paris" />
+    <alias name="ITC Stone Serif" to="paris" />
+    
+    <family customizationType="new-named-family" name="pique">
+        <font weight="400" style="normal">Pique.ttf</font>
+    </family>
+    <alias name="oduda-semi-bold" to="pique" weight="600" />
+    <alias name="oduda-bold" to="pique" weight="700" />
+    <alias name="times" to="pique" />
+    <alias name="times new roman" to="pique" />
+    <alias name="palatino" to="pique" />
+    <alias name="georgia" to="pique" />
+    <alias name="baskerville" to="pique" />
+    <alias name="goudy" to="pique" />
+    <alias name="fantasy" to="pique" />
+    <alias name="ITC Stone Serif" to="pique" />
 
     <!-- Lockscreen Clock Fonts -->
     <family customizationType="new-named-family" name="adventpro">

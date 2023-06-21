@@ -27,6 +27,7 @@ PRODUCT_PACKAGES += \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
     FontBariolOverlay \
+    FontBeautyOverlay \
     FontCagliostroOverlay \
     FontCoconOverlay \
     FontComfortaaOverlay \
@@ -85,7 +86,13 @@ PRODUCT_PACKAGES += \
     FontJustSansOverlay \
     FontPunkMonoOverlay \
     FontVladivostokOverlay \
-    FontDotComOverlay
+    FontDotComOverlay \
+    FontAblaxOverlay \
+    FontFreshLemonsOverlay \
+    FontHumouresqueOverlay \
+    FontLoveOverlay \
+    FontParisOverlay \
+    FontPiqueOverlay
         
 # Data icons
 PRODUCT_PACKAGES += \
